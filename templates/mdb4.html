@@ -1,0 +1,187 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+    <link rel="stylesheet" href="{% static 'css/mdb.css' %}">
+
+</head>
+<body>
+    <h1>this is mdb4 html page</h1>
+
+    <button class="btn peach-gradient">Peach</button>
+    <button class="btn purple-gradient">Purple</button>
+    <button class="btn blue-gradient">Blue</button>
+    <button class="btn aqua-gradient">Aqua</button>
+
+      <div class="spinner-grow text-primary" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+      <div class="spinner-grow text-secondary" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+      <div class="spinner-grow text-success" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+      <div class="spinner-grow text-danger" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+      <div class="spinner-grow text-warning" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+      <div class="spinner-grow text-info" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+      <div class="spinner-grow text-light" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+      <div class="spinner-grow text-dark" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+
+
+
+        <!-- Horizontal Steppers -->
+    <div class="row">
+        <div class="col-md-12">
+    
+        <!-- Stepers Wrapper -->
+        <ul class="stepper stepper-horizontal">
+    
+            <!-- First Step -->
+            <li class="completed">
+            <a href="#!">
+                <span class="circle">1</span>
+                <span class="label">First step</span>
+            </a>
+            </li>
+    
+            <!-- Second Step -->
+            <li class="active">
+            <a href="#!">
+                <span class="circle">2</span>
+                <span class="label">Second step</span>
+            </a>
+            </li>
+    
+            <!-- Third Step -->
+            <li class="warning">
+            <a href="#!">
+                <span class="circle"><i class="fas fa-exclamation"></i></span>
+                <span class="label">Third step</span>
+            </a>
+            </li>
+    
+        </ul>
+        <!-- /.Stepers Wrapper -->
+    
+        </div>
+    </div>
+    <!-- /.Horizontal Steppers -->
+
+
+
+        <!-- Grid row -->
+<div class="flex-row mb-3">
+
+    <!-- Grid column -->
+  
+      <div class="btn-toolbar mb-3" role="toolbar" aria-label="Toolbar with button groups">
+        <div class="btn-group mr-2" role="group" aria-label="First group">
+          <button type="button" class="btn btn-default">1</button>
+          <button type="button" class="btn btn-default">2</button>
+          <button type="button" class="btn btn-default">3</button>
+          <button type="button" class="btn btn-default">4</button>
+        </div>
+        <div class="md-form input-group my-0">
+          <div class="input-group-prepend">
+            <div class="input-group-text md-addon" id="btnGroupAddon">@</div>
+          </div>
+          <input type="text" class="form-control" placeholder="Input group example" aria-label="Input group example" aria-describedby="btnGroupAddon">
+        </div>
+      </div>
+  
+  
+    <!-- Grid column -->
+  
+  </div>
+  <!-- Grid row -->
+  
+  <!-- Grid row -->
+  <div class="flex-row mb-3">
+  
+    <!-- Grid column -->
+  
+      <div class="btn-toolbar d-flex" role="toolbar" aria-label="Toolbar with button groups">
+        <div class="btn-group mr-auto mb-3 mb-md-0" role="group" aria-label="First group">
+          <button type="button" class="btn btn-default p-demo-5">1</button>
+          <button type="button" class="btn btn-default p-demo-5">2</button>
+          <button type="button" class="btn btn-default p-demo-5">3</button>
+          <button type="button" class="btn btn-default p-demo-5">4</button>
+        </div>
+        <div class="md-form input-group mb-3 my-0">
+          <div class="input-group-prepend">
+            <span class="input-group-text md-addon" id="material-addon1">@</span>
+          </div>
+          <input type="text" class="form-control" placeholder="Username" aria-label="Username"
+            aria-describedby="material-addon1">
+        </div>
+      </div>
+  
+    <!-- Grid column -->
+  
+</div>
+  <!-- Grid row -->
+
+
+
+
+
+
+
+
+        <!-- Card -->
+    <div class="card">
+
+        <!-- Card image -->
+        <div class="view overlay">
+        <img class="card-img-top" src="{% static 'images/fortuner.jpg' %}"
+            alt="Card image cap">
+        <a href="#!">
+            <div class="mask rgba-white-slight"></div>
+        </a>
+        </div>
+    
+        <!-- Card content -->
+        <div class="card-body">
+    
+        <!-- Title -->
+        <h4 class="card-title">Card title</h4>
+        <!-- Text -->
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+        <!-- Button -->
+        <a href="#" class="btn btn-primary">Button</a>
+    
+        </div>
+  
+    </div>
+        <!-- Card -->
+
+
+
+
+
+
+    <script src="{% static 'js/jquery.js' %}"></script>
+    <script src="{% static 'js/popper.js' %}"></script>
+    <script src="{% static 'js/bootstrap.js' %}"></script>
+    <script src="{% static 'js/mdb.js' %}"></script>
+
+
+
+</body>
+</html>
